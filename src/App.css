@@ -1,0 +1,447 @@
+.logo {
+  height: 60px;
+  border-radius: 50%;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  box-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;
+}
+
+.App-header {
+  background-color: #222;
+  height: 90px;
+}
+
+p {
+  margin: 0;
+}
+
+.nav{
+  float: right;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  width: 400px;
+  justify-content: space-around;
+  margin: 36px 0 15px;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.nav li a:hover{
+  background-color: white;
+  color: black;
+  padding: 36px 0 26px 0;
+}
+
+button{
+  background: none;
+  height: 60px;
+  padding: 0;
+  outline: transparent;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.main {
+  height: 800px;
+  position: relative;
+}
+
+.App-footer {
+  text-align: center;
+  height: 90px;
+  border-top: 3px solid black;
+  padding-top: 15px;
+}
+
+.contact {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.main-photo {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.mast {
+  position: absolute;
+  left: 29%;
+  top: 50px;
+}
+
+.masthead {
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 2px gainsboro, 4px 4px grey, 6px 6px black;
+  margin: 5px 0;
+}
+
+.mastsubhead {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-shadow: 2px 2px gainsboro, 4px 4px grey, 6px 6px black;
+}
+
+.mastsubhead:hover {
+  text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;
+}
+
+.retro-effect:hover {
+  text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;  
+}
+
+.route-container {
+  background: linear-gradient(135deg, white, gainsboro);
+}
+
+.route-header {
+  text-align: center;
+  padding: 10px 0 15px;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  background: linear-gradient(#222, gainsboro);
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px gainsboro, 4px 4px grey, 6px 6px black;
+}
+
+.route-header:hover {
+  text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A; 
+}
+
+.project-1 {
+  display: flex;
+  padding: 25px 0;
+}
+
+.project-1-photo {
+  height: 310px;
+  width: 650px;
+  object-fit: contain;
+  margin: 20px 0 15px 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.project-1-photo:hover {
+  box-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;
+}
+
+.project-text {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.project-text h2 {
+  margin: 20px 0;
+}
+
+.project-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 25px 0;
+}
+
+.project-2-photo {
+  height: 310px;
+  width: 650px;
+  object-fit: cover;
+  margin: 20px 20px 15px 0;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.project-2-photo:hover {
+  box-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;
+}
+
+
+
+
+/*----ABOUT PAGE STYLING----*/
+
+
+.about-bio-container {
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+.about-bio-text-container {
+  height: 400px;
+  width: 70%;
+  background-color: silver;
+  display: inline-block;
+  position: absolute;
+  left: 20%;
+  top: 60px;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 5px 5px 5px black;
+}
+
+.bio-quote {
+  font-size: 60px;
+  margin-top: 163px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.bio-quote-attr {
+  font-size: 18px;
+  margin-left: 250px;
+  color: white;
+  text-shadow: 1px 1px black;
+  text-align: center;
+}
+
+.bio-pic {
+  z-index: 1;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, 0 0 0 7px rgba(0,0,0,0.6);
+  position: absolute;
+  left: 13.5%;
+  top: 130px;
+}
+
+.about-text {
+  height: 300px;
+}
+
+.about-city {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.about-city span{
+  line-height: 50px;
+  font-size: 30px;
+  margin-left: 35px;
+}
+
+.about-parallax-1 {
+  height: 500px;
+  background-image: url("./Images/cle.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-parallax-2 {
+  height: 500px;
+  background-image: url("./Images/mb.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-parallax-3 {
+  height: 500px;
+  background-image: url("./Images/col.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.about-parallax-4 {
+  height: 500px;
+  background-image: url("./Images/nyc.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*----WORK PAGE STYLING----*/
+
+.route-container-work {
+  background: linear-gradient(135deg, white, gainsboro);
+  padding: 15px 0;
+}
+
+.work-photo-1 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px rgba(0,0,0,0.7), 0 0 0 10px rgba(0,0,0,0.5), 0 0 0 15px rgba(0,0,0,0.3), 0 0 0 20px rgba(0,0,0,0.1), 0 0 0 25px rgba(0,0,0,0);
+  background-image: url("./Images/BR.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 35px auto;
+}
+
+.work-photo-2 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px rgba(0,0,0,0.7), 0 0 0 10px rgba(0,0,0,0.5), 0 0 0 15px rgba(0,0,0,0.3), 0 0 0 20px rgba(0,0,0,0.1), 0 0 0 25px rgba(0,0,0,0);
+  background-image: url("./Images/mlbam.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px auto;
+}
+
+.work-photo-3 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px rgba(0,0,0,0.7), 0 0 0 10px rgba(0,0,0,0.5), 0 0 0 15px rgba(0,0,0,0.3), 0 0 0 20px rgba(0,0,0,0.1), 0 0 0 25px rgba(0,0,0,0);
+  background-image: url("./Images/NFL.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px auto;
+}
+
+.work-photo-4 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px rgba(0,0,0,0.7), 0 0 0 10px rgba(0,0,0,0.5), 0 0 0 15px rgba(0,0,0,0.3), 0 0 0 20px rgba(0,0,0,0.1), 0 0 0 25px rgba(0,0,0,0);
+  background-image: url("./Images/SV.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px auto;
+}
+
+.work-text {
+  margin: 35px auto;
+  height: 400px;
+  width: 80%;
+  text-align: center;
+  background-color: silver;
+  box-shadow: 3px 3px 0 black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.work-text-header {
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: 700;
+}
+
+.work-text-subheader{
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px black;
+  margin: 1px 0;
+}
+
+.work-text-body {
+  text-align: left;
+  margin: 10px 20px 0;
+  font-size: 17px;
+  text-shadow: .5px .5px white;
+}
+
+/*----MEDIA QUERIES----*/
+
+@media only screen and (max-width: 1100px) {
+.project-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0;
+  text-align: center;
+}
+.project-text {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+}
+
+.project-1-photo {
+  margin: 20px 20px;
+}
+
+.project-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.project-2-photo {
+  margin: 20px 20px;
+}
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+.about-bio-text-container {
+  height: 400px;
+  width: 70%;
+  background-color: silver;
+  display: inline-block;
+  position: absolute;
+  left: 20%;
+  top: 190px;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bio-quote {
+  font-size: 60px;
+  margin-top: 163px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.bio-quote-attr {
+  font-size: 18px;
+  margin-left: 250px;
+  color: white;
+  text-shadow: 1px 1px black;
+  text-align: center;
+}
+
+.bio-pic {
+  z-index: 1;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, 0 0 0 7px rgba(0,0,0,0.6);
+  position: absolute;
+  left: 40%;
+  top: 50px;
+  
+}
+}
