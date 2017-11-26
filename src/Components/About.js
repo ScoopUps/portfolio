@@ -10,12 +10,12 @@ class About extends Component {
 				<div className="about-bio-container">
 					<img src={jason} className="bio-pic"/>
 					<div className="about-bio-text-container">
-					<blockquote className="bio-quote">
-					<p>"He's wonderful!"</p>
-					<p className="bio-quote-attr">- Someone probably</p>
+					<blockquote>
+						<p className="bio-quote">"Resourceful, passionate digital professional with a unique blend of problem-solving and creative talent"</p>
 					</blockquote>
 					</div>
 				</div>
+				<h1 className="about-header">My Journey</h1> 
 				<div className="about-parallax-1">
 				</div>
 				<div className="about-city"><span>Cleveland, Ohio</span></div>

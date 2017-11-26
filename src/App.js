@@ -10,6 +10,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Work from './Components/Work';
 import Projects from './Components/Projects';
+import BRCarousel from './Components/BRCarousel';
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
               <Route exact path="/about" component={About} />
               <Route exact path="/work" component={Work} />
               <Route exact path="/projects" component={Projects} />
+              <Route exact path="/gallery" component={BRCarousel} /> 
               <Redirect to="/" />
             </Switch>
         </main>

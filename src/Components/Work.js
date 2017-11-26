@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class Work extends Component {
 	render(){
@@ -12,7 +13,7 @@ class Work extends Component {
 					<span className="work-text-header">Bleacher Report</span>
 					<h3 className="work-text-subheader">New York, NY (Remote)</h3>
 					<hr/>
-					<p className="work-text-body">Served​ ​as​ ​national​ ​editorial​ ​presence​ ​for​ ​several​ ​Bleacher​ ​Report​ ​properties​ ​engaging​ ​millions.​ ​Strategized with​ ​programming,​ ​social​ ​and​ ​analytics​ ​teams​ ​across​ ​the​ ​globe​ ​to​ ​plan​ ​content​ ​budgets,​ ​target​ ​readership and​ ​maximize​ ​impact.​ ​Synced​ ​with​ ​remote​ ​freelance​ ​writing​ ​resources​ ​and​ ​B/R​ ​brand​ ​talent​ ​to​ ​execute original​ ​MLB​ ​content.​ ​Managed​ ​10-part​ ​MLB​ ​signature​ ​series​ ​​B/R's MLB 20 for '20 from​ ​inception through​ ​delivery.</p>
+					<Link to="/gallery" className="gallery-link">See Gallery</Link>
 				</div>
 				<div className="work-photo-2">
 				</div>

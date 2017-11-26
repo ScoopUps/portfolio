@@ -187,7 +187,7 @@ button{
 
 
 .about-bio-container {
-  height: 700px;
+  height: 550px;
   width: 100%;
   position: relative;
 }
@@ -206,9 +206,10 @@ button{
 }
 
 .bio-quote {
-  font-size: 60px;
-  margin-top: 163px;
-  text-align: center;
+  font-size: 40px;
+  margin-left: 14%;
+  margin-top: 90px;
+  float: left;
   color: white;
   text-shadow: 2px 2px black;
 }
@@ -228,6 +229,16 @@ button{
   position: absolute;
   left: 13.5%;
   top: 130px;
+}
+
+.about-header {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  height: 50px;
+  line-height: 50px;
 }
 
 .about-text {
@@ -366,6 +377,67 @@ button{
   text-shadow: .5px .5px white;
 }
 
+.gallery-link{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background: black;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.gallery-link:hover {
+  opacity: 0.5;
+}
+
+
+/*----GALLERY----*/
+
+.gallery-container {
+  overflow-x: hidden;
+}
+
+.carousel-intro {
+  text-align: center;
+  background-color: silver;
+  width: 70%;
+  margin: 30px auto; 
+  padding: 25px;
+  box-shadow: 3px 3px 0 black;
+  font-size: 15px;
+  color: white;
+  text-shadow: .5px .5px black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.carousel-container{
+  width: 100%;
+  margin-left: 25%;
+}
+
+.legend-link{
+  text-decoration: none;
+  font-size: 13px;
+  color: #111;  
+  font-family: 'Montserrat', sans-serif;
+}
+
+.carousel:hover .slide .legend .legend-link{
+  color: white;
+}
+
+.carousel:hover .slide .legend {
+    background: black;
+}
+
+li.slide.selected {
+  background: white;
+}
+
+
 /*----MEDIA QUERIES----*/
 
 @media only screen and (max-width: 1100px) {
@@ -401,8 +473,15 @@ button{
 
 
 @media only screen and (max-width: 1100px) {
+
+.about-bio-container {
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+
 .about-bio-text-container {
-  height: 400px;
+  height: 450px;
   width: 70%;
   background-color: silver;
   display: inline-block;
@@ -414,9 +493,8 @@ button{
 }
 
 .bio-quote {
-  font-size: 60px;
-  margin-top: 163px;
-  text-align: center;
+  font-size: 35px;
+  margin-top: 140px;
   color: white;
   text-shadow: 2px 2px black;
 }
@@ -438,4 +516,128 @@ button{
   top: 50px;
   
 }
+}
+
+@media only screen and (max-width: 550px) {
+  .project-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0;
+  text-align: center;
+}
+.project-text {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+}
+
+.project-1-photo {
+  margin: 20px 0px;
+  width: 300px;
+  height: 142px;
+  background-size: cover;
+}
+
+.project-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.project-2-photo {
+  margin: 20px 0px;
+  width: 300px;
+  height: 150px;
+}
+
+.logo {
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 10px 0 0 0;
+  display: inline-block;
+
+}
+
+.logo:hover {
+  box-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;
+}
+
+.App-header {
+  background-color: #222;
+  height: 160px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  float: none;
+  width: 100px;
+  margin: 10px auto;
+  justify-content: unset;
+  padding: 0;
+}
+
+.nav li a:hover{
+  background-color: white;
+  color: black;
+  padding: 0;
+}
+
+.masthead {
+  font-size: 30px;
+}
+
+.mastsubhead {
+  font-size: 15px;
+}
+
+.bio-quote {
+  font-size: 20px;
+  margin-left: 14%;
+  margin-top: 130px;
+  float: left;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.bio-pic {
+  z-index: 1;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, 0 0 0 7px rgba(0,0,0,0.6);
+  position: absolute;
+  left: 13%;
+  top: 50px;
+  height: 215px;
+  width: 123px;
+}
+
+.about-bio-container {
+  height: 550px;
+  width: 100%;
+  position: relative;
+}
+
+.about-bio-text-container {
+  height: 415px;
+  width: 70%;
+  background-color: silver;
+  display: inline-block;
+  position: absolute;
+  left: 20%;
+  top: 100px;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 5px 5px 5px black;
+}
+
 }
