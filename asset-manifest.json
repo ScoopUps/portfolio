@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.2874f0d4.css",
-  "main.css.map": "static/css/main.2874f0d4.css.map",
-  "main.js": "static/js/main.b64b6c54.js",
-  "main.js.map": "static/js/main.b64b6c54.js.map",
+  "main.css": "static/css/main.441c7605.css",
+  "main.css.map": "static/css/main.441c7605.css.map",
+  "main.js": "static/js/main.2b776568.js",
+  "main.js.map": "static/js/main.2b776568.js.map",
   "static\\media\\BR.png": "static/media/BR.734553a6.png",
   "static\\media\\Knobler1.PNG": "static/media/Knobler1.8b89e8d1.PNG",
   "static\\media\\Knobler2.PNG": "static/media/Knobler2.89926a19.PNG",
@@ -26,11 +26,11 @@
   "static\\media\\SV.jpg": "static/media/SV.9ef13d92.jpg",
   "static\\media\\cle.jpg": "static/media/cle.068c4708.jpg",
   "static\\media\\col.jpg": "static/media/col.220f9ba6.jpg",
-  "static\\media\\jason.jpg": "static/media/jason.13e87cf0.jpg",
   "static\\media\\main-photo.jpg": "static/media/main-photo.ffbb6d39.jpg",
   "static\\media\\mb.jpg": "static/media/mb.bbdd1972.jpg",
   "static\\media\\mlbam.jpg": "static/media/mlbam.042cffb4.jpg",
   "static\\media\\nyc.jpg": "static/media/nyc.94c06631.jpg",
   "static\\media\\poker.PNG": "static/media/poker.c9b690a3.PNG",
+  "static\\media\\portfolio.PNG": "static/media/portfolio.d16af0b0.PNG",
   "static\\media\\vinyl.png": "static/media/vinyl.8e6cf00d.png"
 }
