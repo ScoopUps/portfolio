@@ -66,7 +66,7 @@ class BRCarousel extends Component {
 			         </Carousel>
 			      </div>
 			      <div className="carousel-intro">
-		    		<p>Danny Knobler is another legendary baseball writer I grew up on that Bleacher Report gave me the wonderful opportunity to work with. We synced up on many real-time reaction stories over two years but the three pieces below I was particularly proud to have researched, pitched and Click for Danny bring to life.</p>
+		    		<p>Danny Knobler is another legendary baseball writer I grew up on that Bleacher Report gave me the wonderful opportunity to work with. We synced up on many real-time reaction stories over two years but the three pieces below I was particularly proud to have researched, pitched and see Danny bring to life.</p>
 		    	</div> 
 		    	<div className="carousel-container">
 			    	<Carousel width={"50%"} useKeyboardArrows={true} showThumbs={false}>
@@ -91,7 +91,7 @@ class BRCarousel extends Component {
 			         </Carousel>
 			      </div>
 			      <div className="carousel-intro">
-		    		<p>B/R's MLB 20 for '20 was the first signature series my deputy editor tossed me the editorial keys to. I hunkered down with an exceptionally talented and knowledgeable baseball writer in Joel Reuter to produce this comprehensive 10-part MLB series that engaged over one million unique readers. (NOTE: Some styling has been degraded since B/R overhauled their site in 2016)</p>
+		    		<p>B/R's MLB 20 for '20 was the first signature series my deputy editor tossed me the editorial keys to. I hunkered down with an exceptionally talented and knowledgeable baseball writer in Joel Reuter to produce this comprehensive 10-part MLB series that engaged over one million unique readers. (NOTE: Some styling is degraded since B/R overhauled their site)</p>
 		    	</div> 
 		    	<div className="carousel-container">
 			    	<Carousel width={"50%"} useKeyboardArrows={true} showThumbs={false}>
