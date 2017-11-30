@@ -26,7 +26,7 @@ class BRCarousel extends Component {
     render() {
     	return(
     	<div>
-    		<h1 className="route-header" >EDITORIAL GALLERY</h1>
+    		<span className="route-header" >EDITORIAL GALLERY</span>
 	    	<div className="gallery-container">	
 		    	<div className="carousel-intro">
 		    		<p>Scott Miller has always been one of my favorite baseball writers, and I was fortunate to be able to work with him on several pieces for Bleacher Report. The first three stories were executed on ideas I researched and pitched to our high-impact content group. The final two are real-time reactions I worked with Scott directly on critical breaking news.</p>

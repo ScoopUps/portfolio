@@ -4,8 +4,8 @@ import jason1 from '../Images/jason1.jpg';
 class About extends Component {
 	render(){
 		return(
-		<div>
-			<h1 className="route-header">ABOUT</h1>
+		<div className="About">
+			<span className="route-header">ABOUT</span>
 			<div className="route-container">
 				<div className="about-bio-container">
 					<img src={jason1} className="bio-pic"/>

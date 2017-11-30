@@ -4,43 +4,43 @@ import {Link} from 'react-router-dom';
 class Work extends Component {
 	render(){
 		return(
-		<div>
-			<h1 className="route-header" >WORK</h1>
+		<div className="Work">
+			<span className="route-header" >WORK</span>
 			<div className="route-container-work">
-				<div className="work-photo-1">
+				<div className="work-photo-1 work-photo">
 				</div>
 				<div className="work-text">
 					<span className="work-text-header">Bleacher Report</span>
-					<h3 className="work-text-subheader">New York, NY (Remote)</h3>
+					<span className="work-text-subheader">New York, NY (Remote)</span>
 					<hr/>
 					<span className="title">Associate Editor</span>
 					<p className="work-text-body">Served​ ​as​ ​national​ ​editorial​ ​presence​ ​for​ ​several​ ​Bleacher​ ​Report​ ​properties​ ​engaging​ ​millions.​ ​Strategized with​ ​programming,​ ​social​ ​and​ ​analytics​ ​teams​ ​across​ ​the​ ​globe​ ​to​ ​plan​ ​content​ ​budgets,​ ​target​ ​readership and​ ​maximize​ ​impact.​ ​Synced​ ​with​ ​remote​ ​freelance​ ​writing​ ​resources​ ​and​ ​B/R​ ​brand​ ​talent​ ​to​ ​execute original​ ​MLB​ ​content</p>
 					<Link to="/gallery" className="gallery-link">See Gallery</Link>
 				</div>
-				<div className="work-photo-2">
+				<div className="work-photo-2 work-photo">
 				</div>
 				<div className="work-text">
 					<span className="work-text-header">MLB Advanced Media</span>
-					<h3 className="work-text-subheader">New York, NY</h3>
+					<span className="work-text-subheader">New York, NY</span>
 					<hr/>
 					<span className="title">Site Manager</span>
 					<p className="work-text-body">Executed​ ​MLB.com​ ​site​ ​operations​ ​on​ ​content​ ​management​ ​systems​ ​for​ ​real-time​ ​web/mobile​ ​distribution. Processed​ ​and​ ​deployed​ ​video​ ​highlight​ ​packages​ ​to​ ​MLBAM’s​ ​international​ ​partner​ ​stakeholders.​ ​Oversaw​ ​copy and​ ​style​ ​standards​ ​as​ ​lead​ ​editor​ ​for​ ​the​ ​multimedia​ ​publishing​ ​group.​ ​Progressed​ ​responsibilities​ ​rapidly​ ​from video​ ​highlight​ ​publishing​ ​to​ ​key​ ​web​ ​management​ ​and​ ​lead​ ​editing​ ​roles​ ​in​ ​the​ ​span​ ​of​ ​weeks​ ​after​ ​initial​ ​hire.</p>
 				</div>
-				<div className="work-photo-3">
+				<div className="work-photo-3 work-photo">
 				</div>
 				<div className="work-text">
 					<span className="work-text-header">National Football League</span>
-					<h3 className="work-text-subheader">New York, NY</h3>
+					<span className="work-text-subheader">New York, NY</span>
 					<hr/>
 					<span className="title">Quality Assurance Analyst</span>
 					<span className="title">Project Lead</span>
 					<p className="work-text-body">Guided​ ​auditing​ ​operations​ ​for​ ​the​ ​NFL’s​ ​Player​ ​Participation​ ​project,​ ​including​ ​logistics,​ ​quality​ ​assurance​ ​and​ ​data management.​ ​Composed internal corporate communications, such as the <a href="http://www.nflgsis.com/pp/Newsletters/Newsletter2012-01.pdf" target="_blank" rel="noopener noreferrer" className="newsletter-link">Player ​Participation​ Newsletter</a>. Supervised​ ​a​ ​team​ ​of​ ​QA​ ​analysts​ ​and​ ​trained​ ​new​ ​hires​ ​on​ ​project​ ​hardware/software.  Administered​ ​video​ ​operations​ ​and​ ​capture​ ​for​ ​the​ ​league’s​ ​internal​ ​video​ ​system.​ ​Chosen​ ​to​ ​serve​ ​as​ ​on-site, live-event​ ​administrator​ ​for​ ​new​ ​player​ ​safety​ ​protocol​ ​implemented​ ​at​ ​the​ ​2011​ ​AFC​ ​Divisional​ ​Playoffs.</p>
 				</div>
-				<div className="work-photo-4">
+				<div className="work-photo-4 work-photo">
 				</div>
 				<div className="work-text">
 					<span className="work-text-header">Screenvision</span>
-					<h3 className="work-text-subheader">New York, NY</h3>
+					<span className="work-text-subheader">New York, NY</span>
 					<hr/>
 					<span className="title">Project Management Consultant</span>
 					<span className="title">Senior Operations Analyst</span>

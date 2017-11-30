@@ -8,6 +8,7 @@ class Header extends Component {
 		return(
 			<header className="App-header">
 			    <Link to="/"><img src={logo} className="logo" alt="logo" /></Link>
+			    <span className="name">JASON SOUKUP</span>
 				    <ul className="nav">
 				    	<li><Link to="/about">ABOUT ME</Link></li>
 				    	<li><Link to="/work">MY WORK</Link></li>

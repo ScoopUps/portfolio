@@ -1,18 +1,31 @@
 .logo {
   height: 60px;
   border-radius: 50%;
-  margin: 15px;
   cursor: pointer;
+  margin: 0px 0 0px 5px;
 }
 
 .logo:hover {
   box-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;
 }
 
+.name {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  color: white;
+  position: absolute;
+  font-size: 25px;
+  top: 15px;
+  left: 80px;
+}
+
 .App-header {
   background-color: #222;
-  height: 90px;
+  height: 60px;
   width: 100%;
+  overflow: hidden;
+  position: fixed;
+  z-index: 10;
 }
 
 p {
@@ -26,7 +39,7 @@ p {
   color: white;
   width: 400px;
   justify-content: space-around;
-  margin: 36px 0 15px;
+  margin: 20px 0;
 }
 
 .nav li {
@@ -42,9 +55,8 @@ p {
 
 
 .nav li a:hover{
-  background-color: white;
-  color: black;
-  padding: 36px 0 26px 0;
+  color: white;
+  text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A; 
 }
 
 button{
@@ -82,6 +94,7 @@ button{
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  padding-top: 60px;
 }
 
 .mast {
@@ -101,12 +114,7 @@ button{
 .mastsubhead {
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 30px;
-  text-shadow: 2px 2px gainsboro, 4px 4px grey, 6px 6px black;
-}
-
-.mastsubhead:hover {
-  text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;
+  font-size: 25px;
 }
 
 .retro-effect:hover {
@@ -118,19 +126,24 @@ button{
 }
 
 .route-header {
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px 0;
+  width: 100%;
   text-align: center;
-  padding: 10px 0 15px;
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
   font-size: 30px;
-  background: linear-gradient(#222, gainsboro);
+  background: #222;
+  display: block;
   color: white;
-  font-weight: 700;
-  text-shadow: 2px 2px gainsboro, 4px 4px grey, 6px 6px black;
 }
 
 .route-header:hover {
   text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A; 
+}
+
+/*----PROJECTS PAGE STYLING----*/
+
+.Projects {
+  padding-top: 60px;
 }
 
 .project-1 {
@@ -159,6 +172,7 @@ button{
 }
 
 .project-text h2 {
+  font-family: 'Raleway', sans-serif;
   margin: 20px 0;
 }
 
@@ -199,6 +213,10 @@ button{
 
 
 /*----ABOUT PAGE STYLING----*/
+
+.About {
+  padding-top: 60px;
+}
 
 
 .about-bio-container {
@@ -324,6 +342,10 @@ button{
 
 /*----WORK PAGE STYLING----*/
 
+.Work {
+  padding-top: 60px;
+}
+
 .route-container-work {
   background: linear-gradient(135deg, white, gainsboro);
   padding: 15px 0;
@@ -337,7 +359,7 @@ button{
   background-image: url("./Images/BR.png");
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 35px auto;
+  margin: 20px auto;
 }
 
 .work-photo-2 {
@@ -386,21 +408,22 @@ button{
 
 .work-text-header {
   font-size: 30px;
-  color: white;
-  text-shadow: 1px 1px black;
-  font-weight: 700;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
 
 .work-text-subheader{
-  font-size: 20px;
-  color: white;
-  text-shadow: 1px 1px black;
+  font-size: 18px;
+  color: black;
+  font-family: 'Raleway', sans-serif;
   margin: 1px 0;
+  display: block;
 }
 
 .title {
   font-weight: 700;
-  font-size: 17px;
+  font-size: 20px;
   display: block;
   text-align: left;
   margin-left: 20px;
@@ -446,15 +469,13 @@ button{
 .carousel-intro {
   text-align: center;
   background-color: lightgrey;
-  width: 70%;
+  width: 80%;
   margin: 30px auto; 
   padding: 25px;
   box-shadow: 3px 3px 0 black;
   font-size: 16px;
-  color: white;
-  text-shadow: 1px 1px black;
+  color: black;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
 }
 
 .carousel-container{

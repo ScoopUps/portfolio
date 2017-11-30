@@ -8,8 +8,8 @@ import {FaGithubSquare} from 'react-icons/lib/fa/';
 class Projects extends Component {
 	render(){
 		return(
-			<div>
-				<h1 className="route-header" >WEB PROJECTS</h1>
+			<div className="Projects">
+				<span className="route-header" >WEB PROJECTS</span>
 				<div className="route-container">
 					<div className="project-1">
 						<a href="https://desolate-mesa-10696.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="project-1-photo" src={project1} /></a>
