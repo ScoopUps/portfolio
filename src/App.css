@@ -118,6 +118,17 @@ button{
   font-size: 17px;
   color: white;
 }
+.mastsubhead-1 {
+  color: white;
+}
+
+.mastsubhead-2 {
+  color: gainsboro;
+}
+
+.mastsubhead-3 {
+  color: black;
+}
 
 .mastsubhead:hover {
   text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;  
