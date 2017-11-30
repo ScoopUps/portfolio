@@ -13,6 +13,11 @@ import Projects from './Components/Projects';
 import BRCarousel from './Components/BRCarousel';
 
 class App extends Component {
+  
+  componentDidUpdate() {
+  window.scrollTo(0,0);
+}
+
   render() {
     return (
       <div className="App">

@@ -23,7 +23,6 @@
   background-color: #222;
   height: 60px;
   width: 100%;
-  overflow: hidden;
   position: fixed;
   z-index: 10;
 }
@@ -113,7 +112,7 @@ button{
 
 .mastsubhead {
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 25px;
 }
 
@@ -422,7 +421,7 @@ button{
 }
 
 .title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   display: block;
   text-align: left;
@@ -461,6 +460,10 @@ button{
 
 
 /*----GALLERY----*/
+
+.Gallery{
+  padding-top: 60px;
+}
 
 .gallery-container {
   overflow-x: hidden;

@@ -25,7 +25,7 @@ import MLB10 from '../Images/BRCImages/MLB10.PNG';
 class BRCarousel extends Component {
     render() {
     	return(
-    	<div>
+    	<div className="Gallery">
     		<span className="route-header" >EDITORIAL GALLERY</span>
 	    	<div className="gallery-container">	
 		    	<div className="carousel-intro">
