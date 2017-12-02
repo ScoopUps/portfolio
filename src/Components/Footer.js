@@ -6,11 +6,16 @@ class Footer extends Component {
 	render(){
 		return(
 		<footer className="App-footer">
-			<p className="contact">Contact Me</p>
-			<div>	
-	          <a className="link" href="https://github.com/scoopups" target="_blank" rel="noopener noreferrer"><FaGithubSquare size={56}/></a>
-	          <a className="link" href="https://www.linkedin.com/in/jasonrsoukup/" target="_blank" rel="noopener noreferrer"><FaLinkedinSquare size={56}/></a>
-	          <a className="link" href="mailto:jrsoukup17@gmail.com"><FaEnvelopeSquare size={56}/></a>
+			<div className="App-footer-fill"></div>
+			<div className="App-footer-top">
+			<p className="contact">CONTACT</p>
+			</div>
+			<div className="App-footer-bottom">	
+	          <div className="contact-container">
+		          <a className="link" href="https://github.com/scoopups" target="_blank" rel="noopener noreferrer"><FaGithubSquare size={56}/></a>
+		          <a className="link" href="https://www.linkedin.com/in/jasonrsoukup/" target="_blank" rel="noopener noreferrer"><FaLinkedinSquare size={56}/></a>
+		          <a className="link" href="mailto:jrsoukup17@gmail.com"><FaEnvelopeSquare size={56}/></a>
+	          </div>
 	        </div>
         </footer>  
         );

@@ -76,17 +76,46 @@ button{
   color: #000;
 }
 
+.link:hover {
+ opacity: 0.5; 
+}
+
 .App-footer {
   text-align: center;
-  height: 45px;
-  border-top: 3px solid black;
-  padding-top: 10px;
+  border-top: 7px solid #222;
+}
+
+.App-footer-top {
+  height: 22px;
+  width: 100%;
+  text-align: center;
+  background-color: #222;
+}
+
+.App-footer-fill {
+  background: linear-gradient(to right, #FEF596, #FBDE03, #FA9D04, #E7450D, #3F362A);
+  height: 4px;
+  width: 100%;
+}
+
+.App-footer-bottom {
+  background: #222;
+  width: 100%;
+}
+
+.contact-container {
+  background: white;
+  width: 168px;
+  margin: auto;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .contact {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  line-height: 22px;
 }
 
 .main-home {
@@ -150,7 +179,7 @@ button{
 }
 
   .route-header-fill {
-    height: 75px;
+    height: 70px;
     width: 100%;
     background: linear-gradient(to right, #FEF596, #FBDE03, #FA9D04, #E7450D, #3F362A);
     position: relative;
@@ -243,7 +272,7 @@ button{
   box-shadow: 10px 10px 10px black;
 }
 
-.project-2-photo:hover {
+.project-photo:hover {
   box-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;
 }
 
