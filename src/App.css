@@ -105,13 +105,13 @@ button{
 }
 
 .masthead {
-  margin: 0;
+  margin-bottom: 40px;
   color: white;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 54px;
+  font-size: 72px;
   font-weight: 700;
-  text-shadow: 1px 1px black, 6px 6px #FEF596, 7px 7px black, 12px 12px #FBDE03, 13px 13px black, 18px 18px #FA9D04, 19px 19px black, 24px 24px #E7450D, 25px 25px black, 30px 30px #3F362A, 31px 31px black; 
+  text-shadow: 1px 1px black, 8px 8px #FEF596, 9px 9px black, 16px 16px #FBDE03, 17px 17px black, 24px 24px #FA9D04, 25px 25px black, 32px 32px #E7450D, 33px 33px black, 40px 40px #3F362A, 41px 41px black; 
 }
 
 /* 60px 45px #FA9D04, 60px 30px #E7450D, 75px 60px #3F362A;
