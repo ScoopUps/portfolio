@@ -108,12 +108,14 @@ button{
   margin: 0;
   color: white;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 54px;
   font-weight: 700;
-  text-shadow: 2px 2px gainsboro, 4px 4px grey, 6px 6px black;
+  text-shadow: 1px 1px black, 6px 6px #FEF596, 7px 7px black, 12px 12px #FBDE03, 13px 13px black, 18px 18px #FA9D04, 19px 19px black, 24px 24px #E7450D, 25px 25px black, 30px 30px #3F362A, 31px 31px black; 
 }
 
+/* 60px 45px #FA9D04, 60px 30px #E7450D, 75px 60px #3F362A;
+*/
 .mastsubhead {
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
@@ -304,7 +306,7 @@ button{
 
 .about-parallax-3 {
   background-image: url("./Images/col.jpg");
-  box-shadow: inset 0 0 0 1200px rgba(133, 39, 78,.5);
+  box-shadow: inset 0 0 0 1200px rgba(133, 39, 78,.6);
 }
 
 .about-parallax-4 {
