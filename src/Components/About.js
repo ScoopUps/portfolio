@@ -5,43 +5,33 @@ class About extends Component {
 	render(){
 		return(
 		<div className="About">
-			<span className="route-header">ABOUT</span>
-			<div className="route-container">
-				<div className="about-bio-container">
-					<img src={jason1} className="bio-pic"/>
-					<div className="about-bio-text-container">
-					</div>
+			<div className="route-header">
+				<span className="route-header-top">ABOUT</span>
+				<div className="route-header-fill">
+						<img src={jason1} className="route-header-pic"/>
+				<div className="route-header-bottom"></div>
+				</div> 
+      </div>		
+				<div className="about-parallax about-parallax-1">
+					<span className="city">Cleveland</span>
+					<span className="about-text">Born.</span>
 				</div>
-				<h1 className="about-header">My Journey So Far...</h1> 
-				<div className="about-parallax-1">
+				<div className="about-city"><span>Ohio</span></div>
+				<div className="about-parallax about-parallax-2">
+					<span className="city">Myrtle Beach</span>
+					<span className="about-text">Raised.</span>
 				</div>
-				<div className="about-city"><span>Cleveland, Ohio</span></div>
-				<div className="about-text">
-					<p>Where I was born. Instilled all that classic Rust Belt work ethic, underdog mentality and love for doomed professional sports teams. 
-					</p>
+				<div className="about-city"><span>South Carolina</span></div>
+				
+				<div className="about-parallax about-parallax-3">
+					<span className="city">Columbia</span>
+					<span className="about-text">Educated.</span>
 				</div>
-				<div className="about-parallax-2">
+				<div className="about-city"><span>South Carolina</span></div>
+				<div className="about-parallax about-parallax-4">
+					<span className="city">New York City</span>
 				</div>
-				<div className="about-city"><span>Myrtle Beach, South Carolina</span></div>
-				<div className="about-text">
-					<p>My hometown. A nice place to grow up. Slow-paced life of hermit crabs, beachwear stores and buffets.
-					</p>
-				</div>
-				<div className="about-parallax-3">
-				</div>
-				<div className="about-city"><span>Columbia, South Carolina</span></div>
-				<div className="about-text">
-					<p>My alma mater. Go Cocks!
-					</p>
-				</div>
-				<div className="about-parallax-4">
-				</div>
-				<div className="about-city"><span>New York, New York</span></div>
-				<div className="about-text">
-					<p>Always wanted to make my way in the Big Apple, and I've been here for nearly a decade. Currently reside in Greenpoint, Brooklyn.
-					</p>
-				</div>
-			</div>
+				<div className="about-city"><span>New York</span></div>
 		</div>
         );
 	}
