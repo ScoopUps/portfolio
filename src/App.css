@@ -97,6 +97,7 @@ button{
   background-repeat: no-repeat;
   text-align: center;
   padding-top: 60px;
+  box-shadow: inset 0 0 0 1200px rgba(0,0,0,.2);
 }
 
 .mast {
@@ -118,21 +119,6 @@ button{
   font-size: 17px;
   color: white;
 }
-.mastsubhead-1 {
-  color: white;
-}
-
-.mastsubhead-2 {
-  color: gainsboro;
-}
-
-.mastsubhead-3 {
-  color: black;
-}
-
-.mastsubhead:hover {
-  text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;  
-}
 
 .retro-effect:hover {
   text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;  
@@ -140,22 +126,55 @@ button{
 
 .route-container {
   background: linear-gradient(135deg, white, gainsboro);
+
 }
 
-.route-header {
-  font-family: 'Montserrat', sans-serif;
-  padding: 5px 0;
-  width: 100%;
-  text-align: center;
-  font-size: 30px;
-  background: #222;
-  display: block;
-  color: white;
+
+/*--- ROUTE HEADER STYLING ---*/
+
+  .route-header-top {
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    background: #222;
+    display: block;
+    color: white;
+    }
+
+  .route-header:hover {
+  text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;
 }
 
-.route-header:hover {
-  text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A; 
+  .route-header-fill {
+    height: 75px;
+    width: 100%;
+    background: linear-gradient(to right, #FEF596, #FBDE03, #FA9D04, #E7450D, #3F362A);
+    position: relative;
+  }
+
+  .route-header-pic{
+    border-radius: 50%;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 15px;
+    left: 140px;
+    box-shadow: 0 0 0 4px rgba(0,0,0,1), 0 0 3px 6px rgba(0,0,0,0.5);
+    z-index: 3;
+  }
+  .route-header-bottom {
+    background-color: #222;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    border-top-left-radius: 75px;
 }
+
+
 
 /*----PROJECTS PAGE STYLING----*/
 
@@ -168,9 +187,9 @@ button{
   padding: 25px 0;
 }
 
-.project-1-photo {
-  height: 310px;
-  width: 650px;
+.project-photo {
+  height: 235px;
+  width: 500px;
   object-fit: cover;
   margin: 20px 0 15px 20px;
   border-radius: 10px;
@@ -235,75 +254,10 @@ button{
   padding-top: 60px;
 }
 
-
-.about-bio-container {
-  height: 550px;
-  width: 100%;
-  position: relative;
-}
-
-.about-bio-text-container {
-  height: 400px;
-  width: 70%;
-  background-color: lightgrey;
-  display: inline-block;
-  position: absolute;
-  left: 20%;
-  top: 60px;
-  border-radius: 5px;
-  font-family: 'Montserrat', sans-serif;
-  box-shadow: 5px 5px 5px black;
-}
-
-.bio-quote {
-  font-size: 40px;
-  font-family: 'Montserrat', sans-serif;
-  margin-left: 13%;
-  margin-top: 80px;
-  float: left;
-  color: white;
-  text-shadow: 2px 2px black;
-}
-
-.bio-quote-attr {
-  font-size: 18px;
-  margin-left: 250px;
-  color: white;
-  text-shadow: 1px 1px black;
-  text-align: center;
-}
-
-.bio-pic {
-  height: 200px;
-  width: 200px;
-  z-index: 1;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px white, 0 0 0 7px rgba(0,0,0,0.6);
-  position: absolute;
-  left: 13%;
-  top: 155px;
-}
-
-.about-header {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  background-color: black;
-  color: white;
-  margin: 0;
-  height: 50px;
-  line-height: 50px;
-  font-size: 25px;
-}
-
 .about-text {
-  height: 200px;
-  text-align: center;
-}
-
-.about-text p {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px; 
-  padding: 80px 0;
+  color: white;
 }
 
 .about-city {
@@ -320,41 +274,43 @@ button{
   margin-left: 35px;
 }
 
-.about-parallax-1 {
+.city{
+  color: white;
+  z-index: 2;
+  font-size: 75px;
+  line-height: 500px;
+  letter-spacing: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.about-parallax {
   height: 500px;
-  background-image: url("./Images/cle.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+}
+
+.about-parallax-1 {
+  background-image: url("./Images/cle.jpg");
+  box-shadow: inset 0 0 0 1200px rgba(114, 47, 55,.5);
 }
 
 .about-parallax-2 {
-  height: 500px;
   background-image: url("./Images/mb.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  box-shadow: inset 0 0 0 1200px rgba(0,128,128,.3);
 }
 
 .about-parallax-3 {
-  height: 500px;
   background-image: url("./Images/col.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  box-shadow: inset 0 0 0 1200px rgba(133, 39, 78,.5);
 }
 
-
 .about-parallax-4 {
-  height: 500px;
   background-image: url("./Images/nyc.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  box-shadow: inset 0 0 0 1200px rgba(255,215,0,.3);
 }
 
 /*----WORK PAGE STYLING----*/
@@ -363,76 +319,71 @@ button{
   padding-top: 60px;
 }
 
-.route-container-work {
-  padding: 15px 0;
+.work-fill: {
+  height: 100px;
+  background: #222;
+  width: 100%;
 }
 
-.work-photo-container {
+.work-container{
   display: flex;
-  justify-content: center;
-  width: 80%;
-  min-width: 780px;
-  margin: auto;
+  justify-content: flex-start;
+  padding: 40px 0;
 }
 
-.work-photo:hover {
-  opacity: .5;
-  cursor: pointer;
+.work-container-1:hover {
+  background-color: rgba(236,65,46, 0.05);
+}
+
+.work-container-2:hover {
+  background-color: rgba(1,0,136,0.05);
+}
+.work-container-3:hover {
+  background-color: rgba(215,9,11, 0.1);
+}
+.work-container-4:hover {
+  background-color: rgba(30,179,250, 0.1);
+}
+
+.work-photo {
+  height: 150px;
+  width: 150px;
+  min-width: 150px;
+  min-height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 5px rgba(0,0,0,0.7), 0 0 0 10px rgba(0,0,0,0.5), 0 0 0 15px rgba(0,0,0,0.3), 0 0 0 20px rgba(0,0,0,0.1), 0 0 0 25px rgba(0,0,0,0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 35px 35px;
 }
 
 .work-photo-1 {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 5px rgba(0,0,0,0.7), 0 0 0 10px rgba(0,0,0,0.5), 0 0 0 15px rgba(0,0,0,0.3), 0 0 0 20px rgba(0,0,0,0.1), 0 0 0 25px rgba(0,0,0,0);
   background-image: url("./Images/BR.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 10px auto;
 }
 
 .work-photo-2 {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 5px rgba(0,0,0,0.7), 0 0 0 10px rgba(0,0,0,0.5), 0 0 0 15px rgba(0,0,0,0.3), 0 0 0 20px rgba(0,0,0,0.1), 0 0 0 25px rgba(0,0,0,0);
   background-image: url("./Images/mlbam.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 10px auto;
 }
 
 .work-photo-3 {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 5px rgba(0,0,0,0.7), 0 0 0 10px rgba(0,0,0,0.5), 0 0 0 15px rgba(0,0,0,0.3), 0 0 0 20px rgba(0,0,0,0.1), 0 0 0 25px rgba(0,0,0,0);
   background-image: url("./Images/NFL.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 10px auto;
 }
 
 .work-photo-4 {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 5px rgba(0,0,0,0.7), 0 0 0 10px rgba(0,0,0,0.5), 0 0 0 15px rgba(0,0,0,0.3), 0 0 0 20px rgba(0,0,0,0.1), 0 0 0 25px rgba(0,0,0,0);
   background-image: url("./Images/SV.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 10px auto;
 }
 
 .work-text {
-  margin: 35px auto;
-  height: 300px;
-  width: 80%;
-  text-align: center;
-  background-color: lightgrey;
-  box-shadow: 3px 3px 0 black;
+  width: 100%;
+  text-align: left;
   font-family: 'Montserrat', sans-serif;
   overflow-y: auto;
+  display: inline-block;
+}
+
+.work-text hr {
+  width: 95%;
 }
 
 .work-text-header {
@@ -455,7 +406,6 @@ button{
   font-size: 20px;
   display: block;
   text-align: left;
-  margin-left: 20px;
 }
 
 .work-text-body {
@@ -538,363 +488,3 @@ li.slide.selected {
 
 /*----MEDIA QUERIES----*/
 
-@media only screen and (max-width: 1100px) {
-.project-1 {
-  display: flex;
-  flex-direction: column;
-  padding: 25px 0;
-  text-align: center;
-}
-.project-text {
-  margin: 0 5px;
-  text-align: center;
-  display: inline-block;
-  width: 100%;
-}
-
-.project-1-photo {
-  margin: 20px 20px;
-  object-fit: cover;
-}
-
-.project-2 {
-  display: flex;
-  flex-direction: column;
-  padding: 25px 0;
-  text-align: center;
-}
-
-.project-2-photo {
-  margin: 20px 20px;
-  background-size: contain;
-}
-
-.about-bio-container {
-  height: 700px;
-  width: 100%;
-  position: relative;
-}
-
-.about-bio-text-container {
-  height: 450px;
-  width: 70%;
-  background-color: lightgrey;
-  display: inline-block;
-  position: absolute;
-  left: 20%;
-  top: 130px;
-  border-radius: 5px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.bio-quote {
-  font-size: 35px;
-  margin-top: 100px;
-  color: white;
-  text-shadow: 2px 2px black;
-}
-
-.bio-quote-attr {
-  font-size: 18px;
-  margin-left: 250px;
-  color: white;
-  text-shadow: 1px 1px black;
-  text-align: center;
-}
-
-.bio-pic {
-  z-index: 1;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px white, 0 0 0 7px rgba(0,0,0,0.6);
-  position: absolute;
-  left: 40%;
-  top: 50px;
-  height: 175px;
-  width: 175px;
-}
-
-}
-
-
-@media only screen and (max-width: 550px) {
-  .Projects {
-  padding-top: 135px;
-}
-
-  .Work {
-  padding-top: 135px;
-}
-
-  .Gallery {
-  padding-top: 135px;
-}
-
-  .About {
-  padding-top: 135px;
-}
-
-  .project-1 {
-  display: flex;
-  flex-direction: column;
-  padding: 25px 0;
-  text-align: center;
-}
-.project-text {
-  text-align: center;
-  display: inline-block;
-  font-size: 12px;
-  width: 100%;
-}
-
-.project-text p {
-  margin: 10px;
-}
-
-.project-tech-used {
-  font-size: 12px;
-}
-
-.project-1-photo {
-  margin: 20px 0px;
-  width: 100%;
-  height: 142px;
-  background-size: cover;
-}
-
-.project-2 {
-  display: flex;
-  flex-direction: column;
-  padding: 25px 0;
-  text-align: center;
-}
-
-.project-2-photo {
-  margin: 20px 0px;
-  width: 100%;
-  height: 150px;
-  background-size: contain;
-}
-
-
-.logo:hover {
-  box-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;
-}
-
-.App-header {
-  background-color: #222;
-  height: 135px;
-  text-align: center;
-  overflow: hidden;
-}
-
-.main-home{
-  padding-top: 135px;
-}
-
-p {
-  margin: 0;
-}
-
-.nav-header{
-  flex-direction: column;
-}
-
-.nav{
-  display: flex;
-  flex-direction: row;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  float: none;
-  width: 100%;
-  margin: 10px auto;
-  padding: 0;
-  border-top: 1px solid white;
-}
-
-.nav li{
-  padding: 5px 0;
-}
-
-.nav li a:hover{
-  padding: 0;
-}
-
-.route-header {
-  font-size: 25px;
-}
-
-.main-home {
-  background-image: url("./Images/main-photo.jpg");
-  width: 100%;
-  height: 300px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center;
-}
-
-.masthead {
-  font-size: 30px;
-}
-
-.mastsubhead {
-  font-size: 12px;
-}
-
-.bio-quote {
-  font-size: 20px;
-  margin-left: 14%;
-  margin-top: 90px;
-  float: left;
-  color: white;
-  text-shadow: 2px 2px black;
-}
-
-.bio-pic {
-  z-index: 1;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px white, 0 0 0 7px rgba(0,0,0,0.6);
-  position: absolute;
-  left: 5%;
-  top: 40px;
-  height: 150px;
-  width: 150px;
-}
-
-.about-bio-container {
-  height: 550px;
-  width: 100%;
-  position: relative;
-}
-
-.about-bio-text-container {
-  height: 390px;
-  width: 70%;
-  background-color: lightgrey;
-  display: inline-block;
-  position: absolute;
-  left: 20%;
-  top: 100px;
-  border-radius: 5px;
-  font-family: 'Montserrat', sans-serif;
-  box-shadow: 5px 5px 5px black;
-}
-
-.about-header {
-  font-size: 20px;
-}
-
-.about-city {
-  text-align: center;
-}
-
-.about-city span {
-  margin: 0;
-  font-size: 20px;
-}
-
-.about-text {
-  height: 150px;
-  text-align: center;
-}
-
-.about-text p {
-  padding: 40px 0;
-  font-size: 17px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.about-parallax-1 {
-  height: 200px;
-  width: 100%;
-  background-image: url("./Images/cle.jpg");
-  background-attachment: unset;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.about-parallax-2 {
-  height: 200px;
-  width: 100%;
-  background-image: url("./Images/mb.jpg");
-  background-attachment: unset;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.about-parallax-3 {
-  height: 200px;
-  width: 100%;
-  background-image: url("./Images/col.jpg");
-  background-attachment: unset;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-.about-parallax-4 {
-  height: 200px;
-  width: 100%;
-  background-image: url("./Images/nyc.jpg");
-  background-attachment: unset;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.work-text {
-  margin: 35px auto;
-  height: 300px;
-  width: 80%;
-  text-align: center;
-  background-color: lightgrey;
-  box-shadow: 3px 3px 0 black;
-  font-family: 'Montserrat', sans-serif;
-  overflow-y: auto;
-}
-
-.work-text-header {
-  font-size: 20px;
-  color: white;
-  text-shadow: 1px 1px black;
-  font-weight: 700;
-}
-
-.work-text-subheader{
-  font-size: 15px;
-  color: white;
-  text-shadow: 1px 1px black;
-  margin: 1px 0;
-}
-
-.title {
-  font-weight: 700;
-  font-size: 13px;
-  display: block;
-  text-align: center;
-  margin-left: 0;
-}
-
-.work-text-body {
-  text-align: left;
-  margin: 5px 0 0 5px;
-  font-size: 13px;
-}
-
-.gallery-link{
-  text-decoration: none;
-  padding: 10px;
-  font-size: 15px;
-  color: white;
-  background: black;
-  border-radius: 10px;
-  display: block;
-  margin: 5px 0;
-  cursor: pointer;
-  width: 100px;
-  margin: 10px auto;
-}
-
-}
