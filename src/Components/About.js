@@ -11,8 +11,7 @@ class About extends Component {
 						<img src={jason1} className="route-header-pic"/>
 				<div className="route-header-bottom"></div>
 				</div> 
-			</div>
-			
+      </div>		
 				<div className="about-parallax about-parallax-1">
 					<span className="city">Cleveland</span>
 					<span className="about-text">Born.</span>
