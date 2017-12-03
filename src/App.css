@@ -141,6 +141,7 @@ button{
   font-size: 72px;
   font-weight: 700;
   text-shadow: 2px 2px black;
+  animation: title-glow 5s linear forwards;
 }
 
 .mastsubhead {
@@ -149,45 +150,38 @@ button{
   color: white;
 }
 
-.retro-effect:hover {
-  text-shadow: 1px 1px black, 3px 3px #FEF596, 4px 4px black, 6px 6px #FBDE03, 7px 7px black, 9px 9px #FA9D04, 10px 10px black, 12px 12px #E7450D, 13px 13px black, 15px 15px #3F362A, 16px 16px black; 
-}
-
-.route-container {
-  background: linear-gradient(135deg, white, gainsboro);
-
-}
-
-
 /*--- ROUTE HEADER STYLING ---*/
+
+
+  .route-header {
+    background: #222;
+  }
 
   .route-header-top {
     font-family: 'Montserrat', sans-serif;
-    padding: 2px 0;
+    padding-bottom: 5px;
     width: 100%;
     text-align: center;
     font-size: 28px;
     background: #222;
     display: block;
     color: white;
+    animation: route-header-glow 3s linear forwards;
     }
 
-  .route-header:hover {
-  text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;
-}
-
   .route-header-fill {
-    height: 50px;
+    height: 35px;
     width: 100%;
     background: linear-gradient(to right, #FEF596, #FBDE03, #FA9D04, #E7450D, #3F362A);
     position: relative;
+    border-top-left-radius: 15px; 
   }
 
   .route-header-pic{
     border-radius: 50%;
     position: absolute;
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     top: 8px;
     left: 140px;
     box-shadow: 0 0 0 4px rgba(0,0,0,1), 0 0 3px 6px rgba(0,0,0,0.5);
@@ -197,10 +191,10 @@ button{
     background-color: #222;
     position: absolute;
     bottom: 0;
-    left: 2;
-    height: 35px;
+    left: 15px;
+    height: 20px;
     width: 100%;
-    border-top-left-radius: 75px;
+    border-top-left-radius: 10px;
 }
 
 
@@ -284,7 +278,7 @@ button{
 }
 .about-text {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px; 
+  font-size: 22px; 
   color: white;
 }
 
@@ -516,3 +510,23 @@ li.slide.selected {
 
 /*----MEDIA QUERIES----*/
 
+
+
+
+
+/*--- ANIMATIONS ---*/
+
+@keyframes title-glow {
+  to {
+    text-shadow: 1px 1px black, 3px 3px #FEF596, 4px 4px black, 6px 6px #FBDE03, 7px 7px black, 9px 9px #FA9D04, 10px 10px black, 12px 12px #E7450D, 13px 13px black, 15px 15px #3F362A, 16px 16px black; 
+ 
+  }
+
+}
+
+@keyframes route-header-glow {
+  to{
+    text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;
+
+  }
+}
