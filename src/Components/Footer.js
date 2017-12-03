@@ -12,9 +12,9 @@ class Footer extends Component {
 			</div>
 			<div className="App-footer-bottom">	
 	          <div className="contact-container">
-		          <a className="link" href="https://github.com/scoopups" target="_blank" rel="noopener noreferrer"><FaGithubSquare size={56}/></a>
-		          <a className="link" href="https://www.linkedin.com/in/jasonrsoukup/" target="_blank" rel="noopener noreferrer"><FaLinkedinSquare size={56}/></a>
-		          <a className="link" href="mailto:jrsoukup17@gmail.com"><FaEnvelopeSquare size={56}/></a>
+		          <a className="link" href="https://github.com/scoopups" target="_blank" rel="noopener noreferrer"><FaGithubSquare size={40}/></a>
+		          <a className="link" href="https://www.linkedin.com/in/jasonrsoukup/" target="_blank" rel="noopener noreferrer"><FaLinkedinSquare size={40}/></a>
+		          <a className="link" href="mailto:jrsoukup17@gmail.com"><FaEnvelopeSquare size={40}/></a>
 	          </div>
 	        </div>
         </footer>  
