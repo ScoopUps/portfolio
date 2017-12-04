@@ -170,11 +170,10 @@ button{
     }
 
   .route-header-fill {
-    height: 35px;
+    height: 30px;
     width: 100%;
     background: linear-gradient(to right, #FEF596, #FBDE03, #FA9D04, #E7450D, #3F362A);
-    position: relative;
-    border-top-left-radius: 15px; 
+    position: relative; 
   }
 
   .route-header-pic{
@@ -182,8 +181,9 @@ button{
     position: absolute;
     height: 90px;
     width: 90px;
-    top: 8px;
-    left: 140px;
+    right: 50%;
+    top: 246%;
+    margin: -45px -45px 0 0;
     box-shadow: 0 0 0 4px rgba(0,0,0,1), 0 0 3px 6px rgba(0,0,0,0.5);
     z-index: 3;
   }
@@ -191,10 +191,8 @@ button{
     background-color: #222;
     position: absolute;
     bottom: 0;
-    left: 15px;
-    height: 20px;
+    height: 15px;
     width: 100%;
-    border-top-left-radius: 10px;
 }
 
 

@@ -30,7 +30,7 @@ class About extends Component {
 				<div className="about-city"><span>South Carolina</span></div>
 				<div className="about-parallax about-parallax-4">
 					<span className="city">New York City</span>
-					<span className="about-text">Forged.</span>
+					<span className="about-text">Tested.</span>
 				</div>
 				<div className="about-city"><span>New York</span></div>
 		</div>
