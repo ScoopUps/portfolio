@@ -16,7 +16,7 @@ class Projects extends Component {
 				<div className="route-header-bottom"></div>
 				</div> 
 			</div>
-					<div className="project-1">
+					<div className="project project-1">
 						<a href="https://desolate-mesa-10696.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="project-photo" src={project1} /></a>
 						<div className="project-text">
 							<h2>Vinyl Database</h2>
@@ -25,8 +25,8 @@ class Projects extends Component {
 							<a className="link" href="https://github.com/ScoopUps/Vinyl-DB" target="_blank" rel="noopener noreferrer"><FaGithubSquare size={40}/></a>
 						</div>
 					</div>
-					<div className="project-2">
-						<a href="http://video-poker.bitballoon.com/" target="_blank" rel="noopener noreferrer"><img className="project-photo" src={project2} /></a>
+					<div className="project project-2">
+						<a href="http://video-poker.bitballoon.com/" target="_blank" rel="noopener noreferrer"><img className="project-photo project-photo-right" src={project2} /></a>
 						<div className="project-text">
 							<h2>Video Poker</h2>
 							<p className="project-text-left">An elegant, self-contained video poker machine in vanilla Javascript. I used the jQuery library for the event listeners and a good bit of CSS Flexbox for the overall layout. It incorporates HTML5 audio tags for the music and sound effects. I composed the game logic algorithms for all the winning conditions and designed the playing cards and animations from scratch in CSS. Completed in four days, this was my first project for General Assembly's Web Development Immersive program. Give it a whirl.</p>
@@ -34,7 +34,7 @@ class Projects extends Component {
 							<a className="link" href="https://github.com/ScoopUps/Video-Poker" target="_blank" rel="noopener noreferrer"><FaGithubSquare size={40}/></a>
 						</div>
 					</div>
-					<div className="project-1">
+					<div className="project project-1">
 						<a href="http://www.jasonsoukup.com/" target="_blank" rel="noopener noreferrer"><img className="project-photo" src={project3} /></a>
 						<div className="project-text">
 							<h2>Portfolio Site</h2>
