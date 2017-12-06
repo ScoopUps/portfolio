@@ -15,9 +15,10 @@ class Work extends Component {
 				<div className="route-header-bottom"></div>
 				</div> 
 			</div>
-			<div className="work-fill"></div>
 				<div className="work-container work-container-1">
-					<div onClick={this.handleClick} className="work-photo-1 work-photo"></div>
+					<div className="work-photo-container">
+						<div onClick={this.handleClick} className="work-photo-1 work-photo"></div>
+					</div>
 					<div className="work-text">
 						<span className="work-text-header">Bleacher Report</span>
 						<span className="work-text-subheader">New York, NY (Remote)</span>
@@ -27,7 +28,9 @@ class Work extends Component {
 				</div>
 				
 				<div className="work-container work-container-2">
-					<div onClick={this.handleClick} className="work-photo-2 work-photo"></div>
+					<div className="work-photo-container">
+						<div onClick={this.handleClick} className="work-photo-2 work-photo"></div>
+					</div>
 					<div className="work-text">
 						<span className="work-text-header">MLB Advanced Media</span>
 						<span className="work-text-subheader">New York, NY</span>
@@ -38,7 +41,9 @@ class Work extends Component {
 				</div>
 
 				<div className="work-container work-container-3">
-					<div onClick={this.handleClick} className="work-photo-3 work-photo"></div>
+					<div className="work-photo-container">
+						<div onClick={this.handleClick} className="work-photo-3 work-photo"></div>
+					</div>
 					<div className="work-text">
 						<span className="work-text-header">National Football League</span>
 						<span className="work-text-subheader">New York, NY</span>
@@ -50,7 +55,9 @@ class Work extends Component {
 				</div>
 
 				<div className="work-container work-container-4">
-					<div onClick={this.handleClick} className="work-photo-4 work-photo"></div>
+					<div className="work-photo-container">
+						<div onClick={this.handleClick} className="work-photo-4 work-photo"></div>
+					</div>
 					<div className="work-text">
 						<span className="work-text-header">Screenvision</span>
 						<span className="work-text-subheader">New York, NY</span>

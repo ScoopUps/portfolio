@@ -1,3 +1,5 @@
+/*--- HEADER STYLING ---*/
+
 .logo {
   height: 60px;
   border-radius: 50%;
@@ -109,11 +111,11 @@ button{
 }
 
 .footer-pic {
-  height: 60px;
-  width: 60px;
+  height: 65px;
+  width: 65px;
   border-radius: 50%;
   position: absolute;
-  top: 10px;
+  top: 9px;
 }
 
 .contact-container {
@@ -139,8 +141,8 @@ button{
 }
 
 .contact-link:hover {
- opacity: 0.85; 
  text-decoration: underline;
+ color: #FEF596;
 }
 
 
@@ -352,6 +354,11 @@ button{
   width: 100%;
 }
 
+.work-photo-container {
+  min-width: 250px;
+  min-height: 250px;
+}
+
 .work-container{
   display: flex;
   justify-content: flex-start;
@@ -362,14 +369,33 @@ button{
   background-color: rgba(236,65,46, 0.05);
 }
 
+.work-container-1:hover > div > .work-photo {
+  animation: company-logo-resize .5s linear forwards;
+}
+
 .work-container-2:hover {
   background-color: rgba(1,0,136,0.05);
 }
+
+.work-container-2:hover > div > .work-photo {
+  animation: company-logo-resize .5s linear forwards;
+}
+
+
 .work-container-3:hover {
   background-color: rgba(215,9,11, 0.1);
 }
+
+.work-container-3:hover > div > .work-photo {
+  animation: company-logo-resize .5s linear forwards;
+}
+
 .work-container-4:hover {
   background-color: rgba(30,179,250, 0.1);
+}
+
+.work-container-4:hover > div > .work-photo {
+  animation: company-logo-resize .5s linear forwards;
 }
 
 .work-photo {
@@ -382,6 +408,7 @@ button{
   background-size: cover;
   background-repeat: no-repeat;
   display: inline-block;
+  box-sizing: border-box;
   margin: 35px 35px;
 }
 
@@ -402,11 +429,11 @@ button{
 }
 
 .work-text {
-  width: 100%;
   text-align: left;
   font-family: 'Montserrat', sans-serif;
   overflow-y: auto;
   display: inline-block;
+  margin-left: 5px;
 }
 
 .work-text hr {
@@ -557,5 +584,14 @@ li.slide.selected {
   to{
     text-shadow: 2px 2px #FEF596, 4px 4px #FBDE03, 6px 6px #FA9D04, 8px 8px #E7450D, 10px 10px #3F362A;
 
+  }
+}
+
+@keyframes company-logo-resize {
+  to{
+    height: 175px;
+    width: 175px;
+    min-width: 175px;
+    min-height: 175px;
   }
 }
