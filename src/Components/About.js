@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import jason1 from '../Images/jason1.jpg';
 
 class About extends Component {
 	render(){
@@ -8,7 +7,6 @@ class About extends Component {
 			<div className="route-header">
 				<span className="route-header-top">ABOUT</span>
 				<div className="route-header-fill">
-						<img src={jason1} className="route-header-pic"/>
 				<div className="route-header-bottom"></div>
 				</div> 
       </div>		
